@@ -1,0 +1,1951 @@
+[
+  {
+    "id": "FAQ001",
+    "category": "greeting",
+    "question": "hi",
+    "keywords": [
+      "hi",
+      "hii",
+      "hiii",
+      "yo",
+      "hola"
+    ],
+    "answer": "Hey! I'm the Voyexa assistant. Ask me about a place, a state, or how the site works.",
+    "tokens": [
+      "hi",
+      "hii",
+      "hiii",
+      "hola",
+      "yo"
+    ]
+  },
+  {
+    "id": "FAQ002",
+    "category": "greeting",
+    "question": "hello",
+    "keywords": [
+      "hello",
+      "helo",
+      "hllo"
+    ],
+    "answer": "Hello! Happy to help — ask me about destinations, budgets, or how to use Voyexa.",
+    "tokens": [
+      "hello",
+      "helo",
+      "hllo"
+    ]
+  },
+  {
+    "id": "FAQ003",
+    "category": "greeting",
+    "question": "hey there",
+    "keywords": [
+      "hey",
+      "heya",
+      "sup",
+      "whats up"
+    ],
+    "answer": "Hey there! What are you planning — a specific place, or just browsing ideas?",
+    "tokens": [
+      "hey",
+      "heya",
+      "sup",
+      "up"
+    ]
+  },
+  {
+    "id": "FAQ004",
+    "category": "greeting",
+    "question": "good morning",
+    "keywords": [
+      "gm",
+      "good morning",
+      "morning"
+    ],
+    "answer": "Good morning! Ready to plan a trip, or just exploring what's here?",
+    "tokens": [
+      "gm",
+      "good",
+      "morning"
+    ]
+  },
+  {
+    "id": "FAQ005",
+    "category": "greeting",
+    "question": "good evening",
+    "keywords": [
+      "good evening",
+      "gn",
+      "good night"
+    ],
+    "answer": "Good evening! Let me know if you want place suggestions or help using the site.",
+    "tokens": [
+      "evening",
+      "gn",
+      "good",
+      "night"
+    ]
+  },
+  {
+    "id": "FAQ006",
+    "category": "small_talk",
+    "question": "how are you",
+    "keywords": [
+      "how are you",
+      "how r u",
+      "hows it going",
+      "how are u doing"
+    ],
+    "answer": "Doing well, thanks for asking! How can I help with your trip planning?",
+    "tokens": [
+      "going",
+      "hows",
+      "r",
+      "u"
+    ]
+  },
+  {
+    "id": "FAQ007",
+    "category": "small_talk",
+    "question": "what is your name",
+    "keywords": [
+      "your name",
+      "who are you",
+      "what should i call you"
+    ],
+    "answer": "I'm the Voyexa assistant — a built-in helper for this site, not a general chatbot.",
+    "tokens": [
+      "call",
+      "name"
+    ]
+  },
+  {
+    "id": "FAQ008",
+    "category": "small_talk",
+    "question": "are you a real person",
+    "keywords": [
+      "are you human",
+      "are you a bot",
+      "are you ai",
+      "are you real"
+    ],
+    "answer": "I'm a rule-based assistant built specifically for Voyexa — not a live person, and not a general-purpose AI like ChatGPT. I run on Voyexa's own backend and only know about this website and its travel data.",
+    "tokens": [
+      "ai",
+      "bot",
+      "human",
+      "person",
+      "real"
+    ]
+  },
+  {
+    "id": "FAQ009",
+    "category": "small_talk",
+    "question": "what can you do",
+    "keywords": [
+      "what can you help with",
+      "capabilities",
+      "what do you know"
+    ],
+    "answer": "I can tell you about places and states in the catalogue, explain how Voyexa's recommendations work, and walk you through using the site — planning a trip, wishlisting places, exporting your itinerary, and more.",
+    "tokens": [
+      "capabilities",
+      "help"
+    ]
+  },
+  {
+    "id": "FAQ010",
+    "category": "small_talk",
+    "question": "tell me a joke",
+    "keywords": [
+      "joke",
+      "funny",
+      "make me laugh"
+    ],
+    "answer": "Why did the traveller bring a ladder to Voyexa? To reach the hidden gems! ...I'll stick to travel tips from here.",
+    "tokens": [
+      "funny",
+      "joke",
+      "laugh",
+      "make"
+    ]
+  },
+  {
+    "id": "FAQ011",
+    "category": "small_talk",
+    "question": "who made voyexa",
+    "keywords": [
+      "who built this",
+      "who created voyexa",
+      "who developed this site",
+      "developer",
+      "who made this"
+    ],
+    "answer": "Voyexa AI was built as a full-stack academic project: a React frontend, a FastAPI backend with a MongoDB database, and a set of ML models (popularity, hidden-gem detection, similarity, geo-clustering) trained on a places dataset.",
+    "tokens": [
+      "built",
+      "created",
+      "developed",
+      "developer",
+      "made",
+      "site",
+      "voyexa"
+    ]
+  },
+  {
+    "id": "FAQ012",
+    "category": "farewell",
+    "question": "thank you",
+    "keywords": [
+      "thanks",
+      "thnx",
+      "thx",
+      "ty",
+      "thank u",
+      "tysm"
+    ],
+    "answer": "You're welcome! Ask me anything else about your trip.",
+    "tokens": [
+      "thank",
+      "thanks",
+      "thnx",
+      "thx",
+      "ty",
+      "tysm",
+      "u"
+    ]
+  },
+  {
+    "id": "FAQ013",
+    "category": "farewell",
+    "question": "bye",
+    "keywords": [
+      "bye",
+      "goodbye",
+      "see you",
+      "cya",
+      "gtg"
+    ],
+    "answer": "Bye! Come back anytime you want more place ideas or help with the site.",
+    "tokens": [
+      "bye",
+      "cya",
+      "goodbye",
+      "gtg",
+      "see"
+    ]
+  },
+  {
+    "id": "FAQ014",
+    "category": "farewell",
+    "question": "that was helpful",
+    "keywords": [
+      "that helped",
+      "great answer",
+      "nice thanks",
+      "perfect thanks"
+    ],
+    "answer": "Glad it helped! Feel free to ask more, or drop a note in the feedback section on the home page if there's anything we should add.",
+    "tokens": [
+      "answer",
+      "great",
+      "helped",
+      "helpful",
+      "nice",
+      "perfect",
+      "thanks"
+    ]
+  },
+  {
+    "id": "FAQ015",
+    "category": "farewell",
+    "question": "you are not helpful",
+    "keywords": [
+      "not helpful",
+      "useless",
+      "you dont understand",
+      "bad bot"
+    ],
+    "answer": "Sorry about that — I only know about Voyexa and its place data, so very open-ended questions can stump me. Please use the feedback form on the home page to tell us what you were looking for, so we can teach me the answer.",
+    "tokens": [
+      "bad",
+      "bot",
+      "dont",
+      "helpful",
+      "not",
+      "understand",
+      "useless"
+    ]
+  },
+  {
+    "id": "FAQ016",
+    "category": "about_platform",
+    "question": "what is voyexa",
+    "keywords": [
+      "voyexa",
+      "what is voyexa ai",
+      "about voyexa",
+      "what is this site",
+      "what is this website"
+    ],
+    "answer": "Voyexa AI is a trip-planning site for India: browse a catalogue of real places, filter by zone/state/interest, and get a ranked, day-by-day itinerary built from your budget, group and interests.",
+    "tokens": [
+      "ai",
+      "site",
+      "voyexa",
+      "website"
+    ]
+  },
+  {
+    "id": "FAQ017",
+    "category": "about_platform",
+    "question": "is voyexa free to use",
+    "keywords": [
+      "free",
+      "is it free",
+      "cost to use",
+      "paid",
+      "subscription"
+    ],
+    "answer": "Yes — browsing places, planning a trip and exporting your itinerary are all free.",
+    "tokens": [
+      "cost",
+      "free",
+      "paid",
+      "subscription",
+      "use",
+      "voyexa"
+    ]
+  },
+  {
+    "id": "FAQ018",
+    "category": "about_platform",
+    "question": "what is ai",
+    "keywords": [
+      "what is ai",
+      "define ai",
+      "meaning of ai",
+      "ai meaning",
+      "explain ai"
+    ],
+    "answer": "AI (artificial intelligence) here means software that learns patterns from data to make predictions — on Voyexa, that's models predicting a place's popularity, whether it's a hidden gem, and which places suit your interests, rather than a human manually ranking every place.",
+    "tokens": [
+      "ai",
+      "define",
+      "explain",
+      "meaning"
+    ]
+  },
+  {
+    "id": "FAQ019",
+    "category": "about_platform",
+    "question": "why is it called ai",
+    "keywords": [
+      "why ai",
+      "is this really ai",
+      "is this actual ai",
+      "rule based or ai"
+    ],
+    "answer": "Voyexa's recommendation and ranking side is genuinely model-based — the FastAPI backend loads trained models (popularity regression, a hidden-gem classifier, a similarity recommender, and geo-clustering for itineraries) and uses them on every request. This chatbot specifically is a lightweight keyword matcher over a curated question bank plus live lookups on the places dataset, not a general AI model — that's a deliberate choice, explained below.",
+    "tokens": [
+      "actual",
+      "ai",
+      "based",
+      "called",
+      "really",
+      "rule"
+    ]
+  },
+  {
+    "id": "FAQ020",
+    "category": "about_platform",
+    "question": "why doesnt the chatbot use chatgpt or gemini",
+    "keywords": [
+      "why no gemini",
+      "why no chatgpt",
+      "no llm",
+      "no external api",
+      "why no grok"
+    ],
+    "answer": "This assistant intentionally does not call an external AI like Gemini, GPT or Grok. Those would give generic, internet-wide answers instead of answers grounded in Voyexa's own data and features — and they'd need an outside API call and key for every message. Instead, my questions go to Voyexa's own backend, which matches them against its question bank and its own places dataset, so answers always stay on-topic.",
+    "tokens": [
+      "api",
+      "chatbot",
+      "chatgpt",
+      "doesnt",
+      "external",
+      "gemini",
+      "grok",
+      "llm",
+      "no",
+      "use"
+    ]
+  },
+  {
+    "id": "FAQ021",
+    "category": "about_platform",
+    "question": "how does the recommendation work",
+    "keywords": [
+      "how do you recommend places",
+      "how does ranking work",
+      "how are places ranked",
+      "recommendation engine"
+    ],
+    "answer": "When you submit the planner, the backend first filters places by season, safety for your group's ages and budget. It then ranks what's left by blending how well each place's interest tags match yours, a trained popularity model, and a hidden-gem model. Nearby picks are grouped geographically into a day-by-day plan.",
+    "tokens": [
+      "engine",
+      "places",
+      "ranked",
+      "ranking",
+      "recommend",
+      "recommendation",
+      "work"
+    ]
+  },
+  {
+    "id": "FAQ022",
+    "category": "about_platform",
+    "question": "what is a hidden gem",
+    "keywords": [
+      "hidden gem",
+      "hidden gems",
+      "what does hidden gem mean",
+      "hidden gem score"
+    ],
+    "answer": "A hidden gem is a place with strong signals for a great trip (interest match, condition, uniqueness) but a lower popularity/review count — genuinely worth visiting but less crowded than the big-name spots. You can filter for these on the Explore page.",
+    "tokens": [
+      "gem",
+      "gems",
+      "hidden",
+      "mean",
+      "score"
+    ]
+  },
+  {
+    "id": "FAQ023",
+    "category": "about_platform",
+    "question": "what is popularity rating",
+    "keywords": [
+      "popularity rating",
+      "popularity score",
+      "what does the rating mean"
+    ],
+    "answer": "It's a 0–5 style score reflecting how well-known and consistently well-reviewed a place is, based on review counts and ratings in the underlying dataset.",
+    "tokens": [
+      "mean",
+      "popularity",
+      "rating",
+      "score"
+    ]
+  },
+  {
+    "id": "FAQ024",
+    "category": "about_platform",
+    "question": "what are zones",
+    "keywords": [
+      "zones",
+      "what is a zone",
+      "north zone",
+      "south zone",
+      "how many zones"
+    ],
+    "answer": "Voyexa groups places into 6 geographic zones across India (North, South, East, West, Central and Northeast) so you can browse or filter by region on the Explore page.",
+    "tokens": [
+      "many",
+      "north",
+      "south",
+      "zone",
+      "zones"
+    ]
+  },
+  {
+    "id": "FAQ025",
+    "category": "about_platform",
+    "question": "what is difficulty level",
+    "keywords": [
+      "difficulty level",
+      "easy moderate difficult",
+      "how hard is a trip"
+    ],
+    "answer": "Difficulty level is a rough physical-effort rating for visiting a place — Easy, Moderate or Difficult — useful for judging fitness, terrain and travel time, especially for elderly travellers or young children.",
+    "tokens": [
+      "difficult",
+      "difficulty",
+      "easy",
+      "hard",
+      "level",
+      "moderate",
+      "trip"
+    ]
+  },
+  {
+    "id": "FAQ026",
+    "category": "about_platform",
+    "question": "what are interest tags",
+    "keywords": [
+      "interest tags",
+      "tags",
+      "what are tags",
+      "interests list"
+    ],
+    "answer": "Interest tags describe what a place is good for — things like Adventure, Wildlife, Heritage, Beach, Spiritual, Nightlife and dozens more. You pick the ones you care about in the planner, and matching places get ranked higher.",
+    "tokens": [
+      "interest",
+      "interests",
+      "list",
+      "tags"
+    ]
+  },
+  {
+    "id": "FAQ027",
+    "category": "about_platform",
+    "question": "what does suitable for mean",
+    "keywords": [
+      "suitable for",
+      "who is it suitable for",
+      "suitable for family",
+      "suitable for solo"
+    ],
+    "answer": "Suitable For lists the kinds of travellers a place works well for — Solo, Couples, Family, Friends, Students, Pilgrims and more. The planner uses this to avoid suggesting, say, a rugged trek for a trip with elderly travellers.",
+    "tokens": [
+      "family",
+      "mean",
+      "solo",
+      "suitable"
+    ]
+  },
+  {
+    "id": "FAQ028",
+    "category": "about_platform",
+    "question": "is my data safe",
+    "keywords": [
+      "is my data safe",
+      "privacy",
+      "data privacy",
+      "is this secure",
+      "is my password safe",
+      "how is my data stored"
+    ],
+    "answer": "Your account is stored in Voyexa's MongoDB database. Passwords are never stored in plain text — they're hashed with bcrypt — and you stay logged in with a signed token that expires after a day. Your wishlist and saved trips are tied to your account.",
+    "tokens": [
+      "data",
+      "password",
+      "privacy",
+      "safe",
+      "secure",
+      "stored"
+    ]
+  },
+  {
+    "id": "FAQ029",
+    "category": "about_platform",
+    "question": "how many places are in the catalogue",
+    "keywords": [
+      "how many places",
+      "total places",
+      "how big is the database",
+      "number of places"
+    ],
+    "answer": "There are just over a thousand real places across 36 states and union territories in the catalogue — you can see the live count on the home page.",
+    "tokens": [
+      "big",
+      "catalogue",
+      "database",
+      "many",
+      "number",
+      "places",
+      "total"
+    ]
+  },
+  {
+    "id": "FAQ030",
+    "category": "about_platform",
+    "question": "how many states are covered",
+    "keywords": [
+      "how many states",
+      "which states",
+      "states covered",
+      "states list"
+    ],
+    "answer": "Voyexa currently covers 36 states and union territories across India.",
+    "tokens": [
+      "covered",
+      "list",
+      "many",
+      "states"
+    ]
+  },
+  {
+    "id": "FAQ031",
+    "category": "site_usage",
+    "question": "how do i plan a trip",
+    "keywords": [
+      "plan a trip",
+      "how to plan",
+      "start planning",
+      "create itinerary"
+    ],
+    "answer": "Click \"Plan my trip\" on the home page, then answer a few quick steps — who it's for, group type, budget/month/days, and your interests. Voyexa ranks matching places and builds a day-by-day plan from them.",
+    "tokens": [
+      "create",
+      "itinerary",
+      "plan",
+      "planning",
+      "start",
+      "trip"
+    ]
+  },
+  {
+    "id": "FAQ032",
+    "category": "site_usage",
+    "question": "how do i explore places",
+    "keywords": [
+      "explore places",
+      "browse places",
+      "how to search places",
+      "find places"
+    ],
+    "answer": "Go to the Explore page — you can search by name/city/state, or filter by zone, state, interest, and hidden-gems-only.",
+    "tokens": [
+      "browse",
+      "explore",
+      "find",
+      "places",
+      "search"
+    ]
+  },
+  {
+    "id": "FAQ033",
+    "category": "site_usage",
+    "question": "how do i filter by state",
+    "keywords": [
+      "filter by state",
+      "search by state",
+      "state filter"
+    ],
+    "answer": "On the Explore page, use the State dropdown filter to narrow the list to one state — or just ask me about a state directly, e.g. \"places in Kerala\".",
+    "tokens": [
+      "by",
+      "filter",
+      "search",
+      "state"
+    ]
+  },
+  {
+    "id": "FAQ034",
+    "category": "site_usage",
+    "question": "how do i save a place for later",
+    "keywords": [
+      "wishlist",
+      "save for later",
+      "how to wishlist",
+      "add to wishlist",
+      "where is my wishlist saved",
+      "where is wishlist stored",
+      "is my wishlist saved",
+      "wishlist saved",
+      "where are saved places"
+    ],
+    "answer": "Tap the wishlist/heart icon on any place card or its detail page. Wishlisted places are saved to your Voyexa account, so they're there whenever you log in — on any device.",
+    "tokens": [
+      "add",
+      "later",
+      "place",
+      "places",
+      "save",
+      "saved",
+      "stored",
+      "wishlist"
+    ]
+  },
+  {
+    "id": "FAQ035",
+    "category": "site_usage",
+    "question": "how do i add a place to my trip",
+    "keywords": [
+      "add to trip",
+      "how to add to trip",
+      "put in trip"
+    ],
+    "answer": "From a place card or its detail page, add it to your current trip — this is the shortlist that actually goes into your itinerary, separate from your wishlist.",
+    "tokens": [
+      "add",
+      "place",
+      "put",
+      "trip"
+    ]
+  },
+  {
+    "id": "FAQ036",
+    "category": "site_usage",
+    "question": "how do i remove a place from my trip",
+    "keywords": [
+      "remove from trip",
+      "delete from trip",
+      "take out of trip"
+    ],
+    "answer": "Open your trip bar and remove the place from there — it comes straight back out of your itinerary plan.",
+    "tokens": [
+      "delete",
+      "from",
+      "out",
+      "place",
+      "remove",
+      "take",
+      "trip"
+    ]
+  },
+  {
+    "id": "FAQ037",
+    "category": "site_usage",
+    "question": "how do i see my itinerary",
+    "keywords": [
+      "view itinerary",
+      "see my plan",
+      "my itinerary"
+    ],
+    "answer": "After planning, go to the Itinerary page — it shows your places grouped into a day-by-day schedule based on location and your chosen number of days.",
+    "tokens": [
+      "itinerary",
+      "plan",
+      "see",
+      "view"
+    ]
+  },
+  {
+    "id": "FAQ038",
+    "category": "site_usage",
+    "question": "how do i download my itinerary",
+    "keywords": [
+      "download pdf",
+      "export itinerary",
+      "save itinerary as pdf",
+      "print itinerary"
+    ],
+    "answer": "On the Itinerary or Confirmation page, use the download/export option to get a PDF copy of your day-by-day plan.",
+    "tokens": [
+      "as",
+      "download",
+      "export",
+      "itinerary",
+      "pdf",
+      "print",
+      "save"
+    ]
+  },
+  {
+    "id": "FAQ039",
+    "category": "site_usage",
+    "question": "how do i sign up",
+    "keywords": [
+      "sign up",
+      "create account",
+      "register",
+      "new account"
+    ],
+    "answer": "Use the Signup page — enter your name, email, phone, date of birth and a password (at least 8 characters). Your account is created in Voyexa's database and you're logged in straight away.",
+    "tokens": [
+      "account",
+      "create",
+      "new",
+      "register",
+      "sign",
+      "up"
+    ]
+  },
+  {
+    "id": "FAQ040",
+    "category": "site_usage",
+    "question": "how do i log in",
+    "keywords": [
+      "log in",
+      "login",
+      "sign in"
+    ],
+    "answer": "Use the Login page with the email and password you signed up with. If they don't match an account, you'll see an error message.",
+    "tokens": [
+      "log",
+      "login",
+      "sign"
+    ]
+  },
+  {
+    "id": "FAQ041",
+    "category": "site_usage",
+    "question": "i forgot my password",
+    "keywords": [
+      "forgot password",
+      "reset password",
+      "cant log in",
+      "password reset",
+      "lost password",
+      "change password"
+    ],
+    "answer": "There's no self-service password reset yet — Voyexa has real accounts now, but a reset flow hasn't been built. Please use the feedback section on the home page to let the team know, or create a new account with a different email.",
+    "tokens": [
+      "cant",
+      "change",
+      "forgot",
+      "log",
+      "lost",
+      "password",
+      "reset"
+    ]
+  },
+  {
+    "id": "FAQ042",
+    "category": "site_usage",
+    "question": "how do i edit my profile",
+    "keywords": [
+      "edit profile",
+      "update profile",
+      "change my details",
+      "change name"
+    ],
+    "answer": "Go to the Profile page to update your name, phone number or date of birth.",
+    "tokens": [
+      "change",
+      "details",
+      "edit",
+      "name",
+      "profile",
+      "update"
+    ]
+  },
+  {
+    "id": "FAQ043",
+    "category": "site_usage",
+    "question": "how do i switch to dark mode",
+    "keywords": [
+      "dark mode",
+      "light mode",
+      "theme",
+      "switch theme",
+      "night mode"
+    ],
+    "answer": "Use the theme toggle in the header to switch between light and dark mode.",
+    "tokens": [
+      "dark",
+      "light",
+      "mode",
+      "night",
+      "switch",
+      "theme"
+    ]
+  },
+  {
+    "id": "FAQ044",
+    "category": "site_usage",
+    "question": "what is the admin page for",
+    "keywords": [
+      "admin page",
+      "what is admin",
+      "admin panel"
+    ],
+    "answer": "The Admin page is for behind-the-scenes management: overriding place images (admin accounts only), reviewing feedback submissions, and seeing which questions the chatbot couldn't answer. It's not a traveller-facing feature.",
+    "tokens": [
+      "admin",
+      "page",
+      "panel"
+    ]
+  },
+  {
+    "id": "FAQ045",
+    "category": "site_usage",
+    "question": "how do i give feedback",
+    "keywords": [
+      "give feedback",
+      "leave feedback",
+      "feedback form",
+      "submit feedback"
+    ],
+    "answer": "Scroll to the Feedback section on the home page — rate your experience and leave a message. It's saved so the team can review it and improve the site.",
+    "tokens": [
+      "feedback",
+      "form",
+      "leave",
+      "submit"
+    ]
+  },
+  {
+    "id": "FAQ046",
+    "category": "site_usage",
+    "question": "how do i contact support",
+    "keywords": [
+      "contact support",
+      "customer support",
+      "help desk",
+      "report a problem"
+    ],
+    "answer": "The best way right now is the feedback section on the home page — describe the issue there and it'll be reviewed.",
+    "tokens": [
+      "contact",
+      "customer",
+      "desk",
+      "help",
+      "problem",
+      "report",
+      "support"
+    ]
+  },
+  {
+    "id": "FAQ047",
+    "category": "site_usage",
+    "question": "i found a bug",
+    "keywords": [
+      "bug",
+      "found a bug",
+      "something is broken",
+      "error on site",
+      "not working"
+    ],
+    "answer": "Sorry about that! Please use the feedback section on the home page and describe exactly what happened — that gets logged for the team to fix.",
+    "tokens": [
+      "broken",
+      "bug",
+      "error",
+      "found",
+      "not",
+      "site",
+      "something",
+      "working"
+    ]
+  },
+  {
+    "id": "FAQ048",
+    "category": "site_usage",
+    "question": "is there a mobile app",
+    "keywords": [
+      "mobile app",
+      "app for phone",
+      "ios app",
+      "android app"
+    ],
+    "answer": "Not yet — Voyexa is currently a responsive website you can use from your phone's browser; a dedicated app isn't available.",
+    "tokens": [
+      "android",
+      "app",
+      "ios",
+      "mobile",
+      "phone"
+    ]
+  },
+  {
+    "id": "FAQ049",
+    "category": "site_usage",
+    "question": "how do i clear my trip",
+    "keywords": [
+      "clear trip",
+      "reset trip",
+      "start over",
+      "remove all places"
+    ],
+    "answer": "Your trip planner has a clear/reset option that empties your current shortlist without touching your saved wishlist.",
+    "tokens": [
+      "all",
+      "clear",
+      "over",
+      "places",
+      "remove",
+      "reset",
+      "start",
+      "trip"
+    ]
+  },
+  {
+    "id": "FAQ050",
+    "category": "site_usage",
+    "question": "what is the difference between wishlist and trip",
+    "keywords": [
+      "wishlist vs trip",
+      "difference wishlist trip",
+      "wishlist and trip"
+    ],
+    "answer": "Wishlist is your long-term \"save for later\" list — you can keep as many places there as you like. Trip is the short list you're actually planning to visit right now, which feeds into your itinerary.",
+    "tokens": [
+      "between",
+      "difference",
+      "trip",
+      "vs",
+      "wishlist"
+    ]
+  },
+  {
+    "id": "FAQ051",
+    "category": "travel_general",
+    "question": "what is the best time to visit india",
+    "keywords": [
+      "best time to visit",
+      "best season",
+      "when to travel india",
+      "best month"
+    ],
+    "answer": "It varies a lot by region — hill stations and the north are best avoided in peak monsoon, while the coasts and deserts are best outside peak summer heat. Each place page shows its own best months (Best_Month range), and the planner uses this automatically when you pick a travel month.",
+    "tokens": [
+      "best",
+      "india",
+      "month",
+      "season",
+      "time",
+      "travel",
+      "visit"
+    ]
+  },
+  {
+    "id": "FAQ052",
+    "category": "travel_general",
+    "question": "how do i travel on a budget",
+    "keywords": [
+      "budget travel",
+      "cheap trip",
+      "travel on a budget",
+      "low budget trip"
+    ],
+    "answer": "Set a lower daily budget in the planner — it filters out places whose entry fee, activity, hotel and food costs push past what you set, so you only see options that actually fit.",
+    "tokens": [
+      "budget",
+      "cheap",
+      "low",
+      "travel",
+      "trip"
+    ]
+  },
+  {
+    "id": "FAQ053",
+    "category": "travel_general",
+    "question": "what are good family friendly places",
+    "keywords": [
+      "family friendly",
+      "places for family",
+      "good for kids",
+      "family trip"
+    ],
+    "answer": "Filter Explore by the \"Family\" suitability, or select \"Family\" as your group type in the planner — it'll favour places tagged safe and enjoyable for kids and the whole family.",
+    "tokens": [
+      "family",
+      "friendly",
+      "good",
+      "kids",
+      "places",
+      "trip"
+    ]
+  },
+  {
+    "id": "FAQ054",
+    "category": "travel_general",
+    "question": "what are good places for adventure",
+    "keywords": [
+      "adventure places",
+      "adventure travel",
+      "trekking",
+      "adrenaline"
+    ],
+    "answer": "Look for the Adventure interest tag on Explore, or pick Adventure as an interest in the planner — trekking, rafting, paragliding and similar activity-heavy spots will rank higher.",
+    "tokens": [
+      "adrenaline",
+      "adventure",
+      "good",
+      "places",
+      "travel",
+      "trekking"
+    ]
+  },
+  {
+    "id": "FAQ055",
+    "category": "travel_general",
+    "question": "what are good romantic places",
+    "keywords": [
+      "romantic places",
+      "couple trip",
+      "honeymoon spot",
+      "places for couples"
+    ],
+    "answer": "Filter by \"Couples\" suitability, or the Romantic interest tag — scenic, quieter spots tend to rank well for this.",
+    "tokens": [
+      "couple",
+      "couples",
+      "good",
+      "honeymoon",
+      "places",
+      "romantic",
+      "spot",
+      "trip"
+    ]
+  },
+  {
+    "id": "FAQ056",
+    "category": "travel_general",
+    "question": "what are good solo travel places",
+    "keywords": [
+      "solo travel",
+      "places for solo travellers",
+      "travelling alone"
+    ],
+    "answer": "Filter Explore by \"Solo\" suitability — these are places flagged as comfortable and worthwhile for a traveller on their own.",
+    "tokens": [
+      "alone",
+      "good",
+      "places",
+      "solo",
+      "travel",
+      "travellers",
+      "travelling"
+    ]
+  },
+  {
+    "id": "FAQ057",
+    "category": "travel_general",
+    "question": "what are good spiritual places",
+    "keywords": [
+      "spiritual places",
+      "pilgrimage places",
+      "religious places",
+      "temples to visit"
+    ],
+    "answer": "Use the Spiritual or Pilgrimage interest tags on Explore, or filter suitability by \"Pilgrims\" — temples, monasteries and other religious sites will surface.",
+    "tokens": [
+      "good",
+      "pilgrimage",
+      "places",
+      "religious",
+      "spiritual",
+      "temples",
+      "visit"
+    ]
+  },
+  {
+    "id": "FAQ058",
+    "category": "travel_general",
+    "question": "what are good beach destinations",
+    "keywords": [
+      "beach destinations",
+      "best beaches",
+      "beach places",
+      "coastal places"
+    ],
+    "answer": "Use the Beach or Coastal interest tags on Explore — Goa, the Andaman/Lakshadweep islands and several coastal states have strong options.",
+    "tokens": [
+      "beach",
+      "beaches",
+      "best",
+      "coastal",
+      "destinations",
+      "good",
+      "places"
+    ]
+  },
+  {
+    "id": "FAQ059",
+    "category": "travel_general",
+    "question": "what are good hill stations",
+    "keywords": [
+      "hill stations",
+      "mountain places",
+      "cool weather places",
+      "hilly places"
+    ],
+    "answer": "Filter by the Hills interest tag, or browse states like Himachal Pradesh, Uttarakhand or the Northeast for classic hill-station picks.",
+    "tokens": [
+      "cool",
+      "good",
+      "hill",
+      "hilly",
+      "mountain",
+      "places",
+      "stations",
+      "weather"
+    ]
+  },
+  {
+    "id": "FAQ060",
+    "category": "travel_general",
+    "question": "what are good wildlife destinations",
+    "keywords": [
+      "wildlife",
+      "safari",
+      "tiger reserve",
+      "wildlife sanctuary"
+    ],
+    "answer": "Use the Wildlife or Tiger Reserve interest tags on Explore to find safaris and sanctuaries.",
+    "tokens": [
+      "destinations",
+      "good",
+      "reserve",
+      "safari",
+      "sanctuary",
+      "tiger",
+      "wildlife"
+    ]
+  },
+  {
+    "id": "FAQ061",
+    "category": "travel_general",
+    "question": "is it safe to travel during monsoon",
+    "keywords": [
+      "monsoon travel",
+      "rainy season travel",
+      "travel in rain"
+    ],
+    "answer": "Some places (backwaters, tea gardens, waterfalls) actually look their best in monsoon, while hilly or landslide-prone terrain can be riskier — check each place's best-months range and terrain type before booking a monsoon trip.",
+    "tokens": [
+      "during",
+      "monsoon",
+      "rain",
+      "rainy",
+      "safe",
+      "season",
+      "travel"
+    ]
+  },
+  {
+    "id": "FAQ062",
+    "category": "travel_general",
+    "question": "what should i pack for a trip",
+    "keywords": [
+      "what to pack",
+      "packing list",
+      "packing tips"
+    ],
+    "answer": "It depends heavily on the terrain and season of the place — check the place's Terrain_Type and best-months, and pack for that specific climate rather than a generic list.",
+    "tokens": [
+      "list",
+      "pack",
+      "packing",
+      "tips",
+      "trip"
+    ]
+  },
+  {
+    "id": "FAQ063",
+    "category": "travel_general",
+    "question": "how many days do i need",
+    "keywords": [
+      "how many days",
+      "trip duration",
+      "how long should i stay"
+    ],
+    "answer": "Each place has a Typical_Duration (like a half-day or full-day visit) — the planner adds these up across your selected places to suggest a realistic number of days, which you can also set yourself.",
+    "tokens": [
+      "days",
+      "duration",
+      "long",
+      "many",
+      "need",
+      "stay",
+      "trip"
+    ]
+  },
+  {
+    "id": "FAQ064",
+    "category": "travel_general",
+    "question": "what does typical duration mean",
+    "keywords": [
+      "typical duration",
+      "how long to visit",
+      "time needed at a place"
+    ],
+    "answer": "It's a rough estimate of how long a visit to that specific place usually takes — a few hours, half a day, or a full day — used to build a realistic day-by-day schedule.",
+    "tokens": [
+      "duration",
+      "long",
+      "mean",
+      "needed",
+      "place",
+      "time",
+      "typical",
+      "visit"
+    ]
+  },
+  {
+    "id": "FAQ065",
+    "category": "travel_general",
+    "question": "what group types are supported",
+    "keywords": [
+      "group types",
+      "who is travelling",
+      "solo couple family friends"
+    ],
+    "answer": "The planner supports Solo, Couples, Family and Friends group types, and asks about children's and elderly members' ages so it can avoid unsuitable or unsafe picks for them.",
+    "tokens": [
+      "couple",
+      "family",
+      "friends",
+      "group",
+      "solo",
+      "supported",
+      "travelling",
+      "types"
+    ]
+  },
+  {
+    "id": "FAQ066",
+    "category": "travel_general",
+    "question": "is this good for elderly travellers",
+    "keywords": [
+      "elderly travel",
+      "senior travel",
+      "travel with parents",
+      "travel with grandparents"
+    ],
+    "answer": "Yes — the planner asks about elderly group members and factors in each place's Difficulty_Level, so physically demanding places are weighted down for that group.",
+    "tokens": [
+      "elderly",
+      "good",
+      "grandparents",
+      "parents",
+      "senior",
+      "travel",
+      "travellers"
+    ]
+  },
+  {
+    "id": "FAQ067",
+    "category": "travel_general",
+    "question": "is this good for travelling with children",
+    "keywords": [
+      "travelling with kids",
+      "travel with children",
+      "kid friendly trip"
+    ],
+    "answer": "Yes — tell the planner how many children and their ages, and it favours places tagged suitable for family/children and avoids high-difficulty terrain for them.",
+    "tokens": [
+      "children",
+      "friendly",
+      "good",
+      "kid",
+      "kids",
+      "travel",
+      "travelling",
+      "trip"
+    ]
+  },
+  {
+    "id": "FAQ068",
+    "category": "travel_general",
+    "question": "what does entry fee mean",
+    "keywords": [
+      "entry fee",
+      "ticket price",
+      "is there an entry fee"
+    ],
+    "answer": "It's the approximate ticket/entry cost for that place in INR, used alongside activity, hotel and food costs to estimate your daily budget fit.",
+    "tokens": [
+      "entry",
+      "fee",
+      "mean",
+      "price",
+      "ticket"
+    ]
+  },
+  {
+    "id": "FAQ069",
+    "category": "travel_general",
+    "question": "how is the daily cost calculated",
+    "keywords": [
+      "daily cost",
+      "how is budget calculated",
+      "cost estimate"
+    ],
+    "answer": "It adds up a place's activity cost, an average hotel cost per night, and an average food cost per day, so the number you compare against your budget reflects a realistic full day, not just the ticket price.",
+    "tokens": [
+      "budget",
+      "calculated",
+      "cost",
+      "daily",
+      "estimate"
+    ]
+  },
+  {
+    "id": "FAQ070",
+    "category": "place_suggestion",
+    "question": "which places do you suggest",
+    "keywords": [
+      "suggest a place",
+      "recommend a place",
+      "where should i go",
+      "best place to visit",
+      "any recommendations"
+    ],
+    "answer": "Happy to help — mention a state you're curious about (e.g. \"places in Rajasthan\") and I'll list some top-rated spots there, or use \"Plan my trip\" for a full personalised, budget-aware itinerary.",
+    "tokens": [
+      "best",
+      "go",
+      "place",
+      "places",
+      "recommend",
+      "recommendations",
+      "suggest",
+      "visit"
+    ]
+  },
+  {
+    "id": "FAQ071",
+    "category": "place_suggestion",
+    "question": "what places do you have in a state",
+    "keywords": [
+      "places in a state",
+      "what is there to see",
+      "places to visit",
+      "tourist spots"
+    ],
+    "answer": "Ask me by name — e.g. \"what places are in Kerala\" or \"suggest places in Chhattisgarh\" — and I'll pull the top-rated ones straight from the catalogue.",
+    "tokens": [
+      "have",
+      "places",
+      "see",
+      "spots",
+      "state",
+      "tourist",
+      "visit"
+    ]
+  },
+  {
+    "id": "FAQ072",
+    "category": "place_suggestion",
+    "question": "surprise me with a destination",
+    "keywords": [
+      "surprise me",
+      "pick a place for me",
+      "random destination",
+      "anywhere"
+    ],
+    "answer": "Try the Explore page with the \"Hidden gems only\" filter on and no other filters — it's a great way to stumble on something unexpected.",
+    "tokens": [
+      "anywhere",
+      "destination",
+      "pick",
+      "place",
+      "random",
+      "surprise"
+    ]
+  },
+  {
+    "id": "FAQ073",
+    "category": "about_ai_ml",
+    "question": "what machine learning models does voyexa use",
+    "keywords": [
+      "ml models",
+      "machine learning models",
+      "what models",
+      "ai models used"
+    ],
+    "answer": "A few, working together: a popularity regressor, a hidden-gem classifier, a similarity-based recommender for \"places like this one\", geo-clustering to group nearby places into itinerary days, and a final ranking blend that combines all the scores.",
+    "tokens": [
+      "ai",
+      "learning",
+      "machine",
+      "ml",
+      "models",
+      "use",
+      "used",
+      "voyexa"
+    ]
+  },
+  {
+    "id": "FAQ074",
+    "category": "about_ai_ml",
+    "question": "how does the hidden gem classifier work",
+    "keywords": [
+      "hidden gem classifier",
+      "hidden gem model",
+      "how are hidden gems found"
+    ],
+    "answer": "It's trained to spot places with strong quality signals (ratings, uniqueness, interest match) but comparatively low popularity/review counts — the sweet spot of \"great but under-visited\".",
+    "tokens": [
+      "classifier",
+      "found",
+      "gem",
+      "gems",
+      "hidden",
+      "model",
+      "work"
+    ]
+  },
+  {
+    "id": "FAQ075",
+    "category": "about_ai_ml",
+    "question": "how does the itinerary grouping work",
+    "keywords": [
+      "geo clustering",
+      "how are days grouped",
+      "how is the itinerary built"
+    ],
+    "answer": "Your selected places are geo-clustered by latitude/longitude so nearby spots land on the same day, instead of zig-zagging across a state.",
+    "tokens": [
+      "built",
+      "clustering",
+      "days",
+      "geo",
+      "grouped",
+      "grouping",
+      "itinerary",
+      "work"
+    ]
+  },
+  {
+    "id": "FAQ076",
+    "category": "about_ai_ml",
+    "question": "does the chatbot learn from conversations",
+    "keywords": [
+      "does the bot learn",
+      "does it get smarter",
+      "machine learning chatbot"
+    ],
+    "answer": "Not automatically — this assistant matches your question against a fixed, curated question bank (kept in an Excel file the backend reads) rather than training itself live. When it can't answer something, that question is logged in the database so the team can add a proper answer to the sheet.",
+    "tokens": [
+      "bot",
+      "chatbot",
+      "conversations",
+      "from",
+      "get",
+      "learn",
+      "learning",
+      "machine",
+      "smarter"
+    ]
+  },
+  {
+    "id": "FAQ077",
+    "category": "about_ai_ml",
+    "question": "what happens when the chatbot doesnt know an answer",
+    "keywords": [
+      "chatbot doesnt know",
+      "no answer found",
+      "unanswered question",
+      "chatbot cant help"
+    ],
+    "answer": "I'll say so honestly rather than guess, and the backend quietly logs your question in the database so it can be reviewed and added to my answer sheet later — feel free to also describe what you needed in the feedback section.",
+    "tokens": [
+      "answer",
+      "cant",
+      "chatbot",
+      "doesnt",
+      "found",
+      "happens",
+      "help",
+      "no",
+      "question",
+      "unanswered"
+    ]
+  },
+  {
+    "id": "FAQ078",
+    "category": "feedback_support",
+    "question": "how do i request a feature",
+    "keywords": [
+      "feature request",
+      "suggest a feature",
+      "can you add a feature"
+    ],
+    "answer": "Use the feedback section on the home page — feature suggestions are exactly what it's for.",
+    "tokens": [
+      "add",
+      "feature",
+      "request",
+      "suggest"
+    ]
+  },
+  {
+    "id": "FAQ079",
+    "category": "feedback_support",
+    "question": "is voyexa still in development",
+    "keywords": [
+      "still in development",
+      "is this finished",
+      "work in progress",
+      "beta"
+    ],
+    "answer": "Yes — Voyexa is an ongoing academic project. It's already full-stack (React frontend, FastAPI backend, MongoDB database and trained ML models), and features like password reset, more chatbot answers and richer itineraries are still growing.",
+    "tokens": [
+      "beta",
+      "development",
+      "finished",
+      "progress",
+      "still",
+      "voyexa",
+      "work"
+    ]
+  },
+  {
+    "id": "FAQ080",
+    "category": "feedback_support",
+    "question": "can i suggest a place to add",
+    "keywords": [
+      "suggest a new place",
+      "add a place",
+      "missing place",
+      "place not listed"
+    ],
+    "answer": "Yes — mention it in the feedback section with as much detail as you can (name, city, state) and it'll be considered for the catalogue.",
+    "tokens": [
+      "add",
+      "listed",
+      "missing",
+      "new",
+      "not",
+      "place",
+      "suggest"
+    ]
+  },
+  {
+    "id": "FAQ081",
+    "category": "about_platform",
+    "question": "is voyexa full stack",
+    "keywords": [
+      "full stack",
+      "fullstack",
+      "is this full stack",
+      "is this only frontend",
+      "frontend only",
+      "is there a backend",
+      "does it have a backend"
+    ],
+    "answer": "Yes — Voyexa is a full-stack project. The React frontend talks to a FastAPI backend, which stores users, wishlists, saved trips, feedback and chat logs in MongoDB, and runs the trained ML models that power recommendations and itineraries.",
+    "tokens": [
+      "backend",
+      "frontend",
+      "full",
+      "fullstack",
+      "have",
+      "only",
+      "stack",
+      "voyexa"
+    ]
+  },
+  {
+    "id": "FAQ082",
+    "category": "about_platform",
+    "question": "what tech stack does voyexa use",
+    "keywords": [
+      "tech stack",
+      "technology stack",
+      "what technologies",
+      "built with",
+      "what is it built with",
+      "which framework"
+    ],
+    "answer": "Frontend: React with Vite and Tailwind CSS. Backend: Python FastAPI. Database: MongoDB (Atlas). Machine learning: scikit-learn models trained in the ml/ notebooks and loaded by the backend. Login uses bcrypt password hashing and JWT tokens.",
+    "tokens": [
+      "built",
+      "framework",
+      "stack",
+      "tech",
+      "technologies",
+      "technology",
+      "use",
+      "voyexa"
+    ]
+  },
+  {
+    "id": "FAQ083",
+    "category": "about_platform",
+    "question": "what is the backend built with",
+    "keywords": [
+      "backend",
+      "backend framework",
+      "what is the backend",
+      "fastapi",
+      "python backend",
+      "api server"
+    ],
+    "answer": "The backend is a Python FastAPI service. It exposes routes for accounts (/auth), exploring places (/explore), planning and itineraries (/planning), the wishlist, feedback, admin tools and this chatbot (/chatbot).",
+    "tokens": [
+      "api",
+      "backend",
+      "built",
+      "fastapi",
+      "framework",
+      "python",
+      "server"
+    ]
+  },
+  {
+    "id": "FAQ084",
+    "category": "about_platform",
+    "question": "which database does voyexa use",
+    "keywords": [
+      "database",
+      "which database",
+      "mongodb",
+      "mongo",
+      "where is data stored",
+      "where is my data stored",
+      "do you use mongodb",
+      "do you use a database",
+      "do you use mongo",
+      "is mongodb used",
+      "what database"
+    ],
+    "answer": "Voyexa uses MongoDB. It holds user accounts, wishlists, saved trips, feedback, admin image overrides and the log of chatbot questions I couldn't answer. The places catalogue itself is loaded from a dataset file when the backend starts.",
+    "tokens": [
+      "data",
+      "database",
+      "mongo",
+      "mongodb",
+      "stored",
+      "use",
+      "used",
+      "voyexa"
+    ]
+  },
+  {
+    "id": "FAQ085",
+    "category": "about_platform",
+    "question": "how do the frontend backend and ml work together",
+    "keywords": [
+      "frontend backend ml",
+      "how does it all connect",
+      "architecture",
+      "how is it connected",
+      "how does it work behind the scenes",
+      "how do the frontend and backend connect",
+      "frontend and backend connect",
+      "how does frontend connect to backend",
+      "frontend backend and ml",
+      "how are frontend and backend connected",
+      "how does the frontend talk to the backend"
+    ],
+    "answer": "The React frontend sends requests to the FastAPI backend. For example, when you submit the planner, the backend filters places with rules and ranks them with the trained ML models, then returns the results. Accounts, wishlists and trips are saved to MongoDB, and itineraries are built by geo-clustering on the backend.",
+    "tokens": [
+      "all",
+      "architecture",
+      "backend",
+      "behind",
+      "connect",
+      "connected",
+      "frontend",
+      "ml",
+      "scenes",
+      "talk",
+      "together",
+      "work"
+    ]
+  },
+  {
+    "id": "FAQ086",
+    "category": "about_platform",
+    "question": "are the recommendations real or mock data",
+    "keywords": [
+      "mock data",
+      "fake data",
+      "is it real",
+      "real recommendations",
+      "real ml",
+      "is the ml real",
+      "demo data",
+      "is this real ml or mock",
+      "real ml or mock",
+      "real or mock",
+      "is the ml real or fake",
+      "are the recommendations fake",
+      "is it mock data"
+    ],
+    "answer": "They're real. Recommendations come from the backend, which loads trained ML models and the places dataset and computes rankings on each request — the frontend doesn't fake them.",
+    "tokens": [
+      "data",
+      "demo",
+      "fake",
+      "ml",
+      "mock",
+      "real",
+      "recommendations"
+    ]
+  },
+  {
+    "id": "FAQ087",
+    "category": "site_usage",
+    "question": "is my account saved on the server",
+    "keywords": [
+      "account saved",
+      "saved on server",
+      "server account",
+      "cloud account",
+      "is my profile saved",
+      "do i need an account"
+    ],
+    "answer": "Yes. Your account is stored in Voyexa's MongoDB database, so you can log in with the same email and password from any device and find your profile, wishlist and saved trips.",
+    "tokens": [
+      "account",
+      "cloud",
+      "need",
+      "profile",
+      "saved",
+      "server"
+    ]
+  },
+  {
+    "id": "FAQ088",
+    "category": "site_usage",
+    "question": "can i use my account on another device",
+    "keywords": [
+      "another device",
+      "different device",
+      "multiple devices",
+      "sync across devices",
+      "use on phone and laptop",
+      "phone and laptop",
+      "use it on my phone and laptop",
+      "use on phone and laptop",
+      "login from another device",
+      "use on multiple devices"
+    ],
+    "answer": "Yes — since your data lives on the server rather than in one browser, logging in on another device brings your wishlist and trip history with you. Your current unsaved trip shortlist, however, stays in the browser you built it in.",
+    "tokens": [
+      "account",
+      "across",
+      "another",
+      "device",
+      "devices",
+      "different",
+      "from",
+      "laptop",
+      "login",
+      "multiple",
+      "phone",
+      "sync",
+      "use"
+    ]
+  },
+  {
+    "id": "FAQ089",
+    "category": "site_usage",
+    "question": "how long do i stay logged in",
+    "keywords": [
+      "stay logged in",
+      "session",
+      "session expire",
+      "logged out automatically",
+      "token expire",
+      "how long is login valid"
+    ],
+    "answer": "Your login lasts about a day. After that, the backend rejects the old token and you'll need to log in again. Logging out clears it immediately.",
+    "tokens": [
+      "automatically",
+      "expire",
+      "logged",
+      "login",
+      "long",
+      "out",
+      "session",
+      "stay",
+      "token",
+      "valid"
+    ]
+  },
+  {
+    "id": "FAQ090",
+    "category": "site_usage",
+    "question": "are my saved trips stored",
+    "keywords": [
+      "saved trips",
+      "trip history",
+      "are trips saved",
+      "where are my trips",
+      "past trips",
+      "previous trips"
+    ],
+    "answer": "Yes. When you confirm an itinerary, it's saved to your account in the database and appears in the Trip history section on your Profile page, where you can also delete it.",
+    "tokens": [
+      "history",
+      "past",
+      "previous",
+      "saved",
+      "stored",
+      "trip",
+      "trips"
+    ]
+  },
+  {
+    "id": "FAQ091",
+    "category": "site_usage",
+    "question": "why am i seeing a server error",
+    "keywords": [
+      "server error",
+      "cant reach server",
+      "backend not running",
+      "network error",
+      "couldnt reach",
+      "something went wrong"
+    ],
+    "answer": "That usually means the Voyexa backend isn't reachable — for example, it isn't running or the connection dropped. If you're running it yourself, start the backend (uvicorn app.main:app --reload) and check the frontend's VITE_API_URL setting, then try again.",
+    "tokens": [
+      "backend",
+      "cant",
+      "couldnt",
+      "error",
+      "network",
+      "not",
+      "reach",
+      "running",
+      "seeing",
+      "server",
+      "something",
+      "went",
+      "wrong"
+    ]
+  },
+  {
+    "id": "FAQ092",
+    "category": "site_usage",
+    "question": "can i become an admin",
+    "keywords": [
+      "become admin",
+      "admin account",
+      "admin access",
+      "admin signup",
+      "how to be admin"
+    ],
+    "answer": "Admin accounts need a private admin key when signing up, which only the project owners have. Regular accounts can't change place images, but can use everything else on the site.",
+    "tokens": [
+      "access",
+      "account",
+      "admin",
+      "become",
+      "signup"
+    ]
+  },
+  {
+    "id": "FAQ093",
+    "category": "about_ai_ml",
+    "question": "where do the ml models run",
+    "keywords": [
+      "where do models run",
+      "model hosting",
+      "are models on server",
+      "do models run in browser",
+      "model inference"
+    ],
+    "answer": "On the backend. The trained models are saved as files in the ml/artifacts folder, loaded when the FastAPI server starts, and used to score and rank places for each request — nothing heavy runs in your browser.",
+    "tokens": [
+      "browser",
+      "hosting",
+      "inference",
+      "ml",
+      "model",
+      "models",
+      "run",
+      "server"
+    ]
+  },
+  {
+    "id": "FAQ094",
+    "category": "about_ai_ml",
+    "question": "how does the chatbot work technically",
+    "keywords": [
+      "chatbot technical",
+      "how does the chatbot work",
+      "chatbot architecture",
+      "how do you work",
+      "how are you built"
+    ],
+    "answer": "When you send a message, the frontend calls the backend's /chatbot route. The backend first looks for a match in the curated Excel question bank, then tries live lookups on the places dataset (costs, season, difficulty, duration for a named place), and finally logs the question if it can't answer.",
+    "tokens": [
+      "architecture",
+      "built",
+      "chatbot",
+      "technical",
+      "technically",
+      "work"
+    ]
+  }
+]

@@ -1,0 +1,37 @@
+State,total_daily_cost_min,total_daily_cost_max,total_daily_cost_avg
+Tripura,2085.0,4111.0,3098.0
+Mizoram,1870.0,4376.0,3123.0
+Bihar,1679.0,4950.0,3314.0
+Nagaland,2201.0,4431.0,3316.0
+Jharkhand,1890.0,5173.0,3531.0
+Punjab,1649.0,5528.0,3588.0
+Meghalaya,1953.0,5246.0,3600.0
+Andhra Pradesh,1599.0,5709.0,3654.0
+Tamil Nadu,1628.0,5936.0,3782.0
+Telangana,1788.0,6072.0,3930.0
+Puducherry,1982.0,6059.0,4020.0
+Karnataka,1777.0,6305.0,4041.0
+Uttar Pradesh,1818.0,6305.0,4061.0
+Dadra And Nagar Haveli,2070.0,6090.0,4080.0
+Chandigarh,2054.0,6181.0,4117.0
+Chhattisgarh,2041.0,6201.0,4121.0
+Assam,2183.0,6583.0,4383.0
+Daman And Diu,2283.0,6808.0,4546.0
+Manipur,1863.0,7335.0,4599.0
+Haryana,2182.0,7073.0,4628.0
+Delhi,2111.0,7211.0,4661.0
+Ladakh,2251.0,7411.0,4831.0
+Jammu And Kashmir,2432.0,7331.0,4882.0
+Himachal Pradesh,2275.0,7506.0,4890.0
+West Bengal,2298.0,7549.0,4923.0
+Sikkim,2466.0,7411.0,4938.0
+Uttarakhand,2401.0,7480.0,4940.0
+Arunachal Pradesh,2253.0,7664.0,4959.0
+Maharashtra,2438.0,7483.0,4961.0
+Gujarat,2435.0,7623.0,5029.0
+Madhya Pradesh,2706.0,7581.0,5144.0
+Rajasthan,2636.0,7935.0,5285.0
+Odisha,2075.0,8575.0,5325.0
+Goa,3152.0,10375.0,6764.0
+Kerala,3024.0,10772.0,6898.0
+Lakshadweep,4739.0,14064.0,9401.0

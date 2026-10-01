@@ -1,0 +1,79 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Light theme (default) - warm stone/parchment, not the generic cream+terracotta combo */
+:root {
+  --color-bg: 240 235 222;
+  --color-surface: 230 222 200;
+  --color-surface-raised: 221 211 184;
+  --color-line: 199 187 158;
+  --color-text: 30 33 41;
+  --color-muted: 96 90 74;
+  --color-muted-dim: 145 136 112;
+  color-scheme: light;
+}
+
+/* Dark theme - deep indigo-night */
+.dark {
+  --color-bg: 11 18 32;
+  --color-surface: 18 26 43;
+  --color-surface-raised: 24 34 56;
+  --color-line: 34 48 73;
+  --color-text: 237 239 244;
+  --color-muted: 139 147 167;
+  --color-muted-dim: 92 100 120;
+  color-scheme: dark;
+}
+
+html, body, #root {
+  height: 100%;
+}
+
+body {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  background-color: rgb(var(--color-bg));
+  color: rgb(var(--color-text));
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+h1, h2, h3, .font-display {
+  font-family: "Fraunces", serif;
+}
+
+::selection {
+  background-color: #f2a93c;
+  color: #0b1220;
+}
+
+:focus-visible {
+  outline: 2px solid #f2a93c;
+  outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+.scrollbar-thin::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+.scrollbar-thin::-webkit-scrollbar-thumb {
+  background-color: rgb(var(--color-line));
+  border-radius: 4px;
+}
+
+/* Only the printable itinerary layout should appear when the user
+   downloads/prints a trip - hide the site chrome around it. */
+@media print {
+  header,
+  footer {
+    display: none !important;
+  }
+}
